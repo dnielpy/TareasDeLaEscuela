@@ -1,17 +1,17 @@
 ﻿using System;
+
+//Funciones
 class Program
 {      
-
-
-    static void main(){
+    static void Main(){
     //Funcion para optimizar el metodo WriteLine
-    void Write(string texto){
-        Console.WriteLine("Hola {0}", texto);
-    }
+        void Write(string texto){
+            Console.WriteLine("Hola {0}", texto);
+        }
 
-            //Funciones
-    string name =  Console.ReadLine();
-    Write(name);
+        Console.WriteLine("Escribe tu nombre: ");
+        string name =  Console.ReadLine();
+        Write(name);
 
     }
 }
