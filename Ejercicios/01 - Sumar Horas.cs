@@ -1,5 +1,9 @@
-﻿using System;
+using System;
 
+class program
+{
+    static void Main(){
+        
 Console.WriteLine("Ingrese la Hora A: ");
 int horaA = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese la Minutos A: ");
@@ -25,3 +29,6 @@ if (hora > 23)
 }
 
 Console.WriteLine("La hora es: {0}:{1}", hora, minutos);
+
+    }
+}
