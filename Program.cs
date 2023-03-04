@@ -1,6 +1,5 @@
 ﻿using System;
 
-//Funciones
 class Program
 {      
     static void Main(){
